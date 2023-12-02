@@ -1,0 +1,106 @@
+/* App.css */
+
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color:aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+.App {
+  background-color: #fff;
+  width: 400px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+/* Buttons */
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Add button styles */
+button.add-btn {
+  background-color: #007bff;
+  color: #fff;
+}
+
+button.add-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Edit button styles */
+button.edit-btn {
+  background-color: #ffc107;
+  color: #fff;
+  margin-left: 5px;
+}
+
+button.edit-btn:hover {
+  background-color: #e0a800;
+}
+
+/* Delete button styles */
+button.delete-btn {
+  background-color: #dc3545;
+  color: #fff;
+  margin-left: 5px;
+}
+
+button.delete-btn:hover {
+  background-color: #b32438;
+}
+
+/* List */
+ol.list {
+  list-style: none;
+  padding: 0;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.item-buttons {
+  display: flex;
+  gap: 5px;
+}
